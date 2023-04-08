@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3a65de;
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 72rem;
+}
+
+.image {
+    display: flex;
+    position: relative;
+    text-align: center;
+    height: 320px;
+    width: 100%;
+}
+
+.navbar {
+    padding: 1rem 0;
+    background-color: blue;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.nav li {
+    list-style: none;
+    background-color: blue;
+    color: white;
+
+}
+
+.nav li a {
+    outline: none;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.main-container {
+    padding: 1.2rem;
+    background-color: #c7c1ba;
+}
+
+h1 {
+    margin: 1.2rem 0;
+    background-color: #c7c1ba;
+    color: #323030;
+}
+
+p {
+    color: #070707;
+    background-color: #c7c1ba;
+    font: 20px;
+    line-height: 1.7rem;
+    color: #1a274a;
+}
+
+.img-head {
+    position: absolute;
+    color: white;
+    background: none;
+    z-index: 10;
+    margin-left: 120px;
+    margin-top: 120px;
+    font-size: 1.8rem;
+}
+
+.img-para {
+    position: absolute;
+    color: white;
+    background: none;
+    z-index: 10;
+    margin-left: 120px;
+    margin-top: 160px;
+    font-size: 1.4rem;
+}
+
+.side-right {
+    padding: 1.2rem;
+    background: none;
+    width: 40%;
+    height: auto;
+}
+
+.img-head-2 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.img-para-2 {
+    color: white;
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.4rem;
+}
+
+.img-grid {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.2rem;
+    background-color: #c7c1ba;
+}
+
+.img-grid img {
+    cursor: pointer;
+}
+form {
+    background-color: #c7c1ba;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    background-color: #c7c1ba;
+    margin: 0.5rem 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+input {
+    height: 32px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #d4e0e0;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #081437;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0.9rem 0;
+    width: 15%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.success-meg {
+    margin: 1.2rem 0;
+    background-color: #c7c1ba;
+    color: red;
+    font-size: 1.1rem;
+}
+
+.btn {
+    background-color: #c7c1ba;
+    margin: 0.5rem 0;
+}
+
+#link {
+    cursor: pointer;
+    background-color: #081437;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0.9rem 0;
+    padding: 0.5rem 3.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: .4rem;
+}
+
+textarea {
+    width: 50%;
+    border-radius: 5px;
+    background-color: #d4e0e0;
+    padding: 0.5rem;
+    font-size: 16px;
+}
+
+.divider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-left {
+    width: 100%;
+    background-color: #c7c1ba;
+    padding: 0 0.4rem;
+}
